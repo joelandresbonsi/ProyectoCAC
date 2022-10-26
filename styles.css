@@ -1,0 +1,234 @@
+
+
+
+
+
+.logo{
+    color: white;
+    font-size: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around !important;
+}
+.navbar-brand{
+    color: white;
+}
+
+.verde{
+    color:rgb(7, 162, 7);
+}
+.blanco{
+    color: white;
+}
+
+.gris{
+    color: gray ;
+}
+
+.contenedor-presentacion{
+    background-color: black;
+}
+.presentacion{
+    background-image: url('img/ba1.jpg');
+    background-size: cover;
+    background-color: black;
+    opacity: 0.6;
+    height: 700px;
+    
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+   
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 30%;
+   left: 45%;
+    
+}
+
+
+
+.oradores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.cartas{
+    display: flex;
+    justify-content: center;
+    
+}
+.card{
+    padding: 10px;
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.btn-warning{ 
+   font-size: large;
+   font-weight: bold;
+   background-color: #ffc208;
+   height: 30px;
+   padding: 2px;
+   width: auto;
+}
+
+.btn-secondary{
+    font-size: large;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    color: white;
+    padding: 2px;
+    background-color: #18a2b7;
+}
+
+.btn-danger{
+    font-size: large;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    color: white;
+    padding: 2px;
+    
+}
+.btn-dark{
+    font-size: large;
+    border: none;
+    background-color: gray;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    color: white;
+    padding: 2px;
+}
+
+.imagen{
+    margin-right: 2px;
+    border-top: solid 1px blue;
+    padding-top: 1px;
+   
+}
+.informacion{
+    border-top: solid 1px #353a40;
+    padding-top: 1px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    background-color: #353a40;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    
+}
+.subtitulo{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.Titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+u{
+    text-decoration: none;
+    border-bottom:1px dotted;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+.btn-primary{
+   
+    background-color: #96c93e;
+    font-size: 20px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: gray!important;
+}
+
+.textarea{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1d3e51, #1d506d);
+    height: 120px;
+    margin-top: 20px;
+    color: white;
+   
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    
+}
+footer ul li {
+    display: flex;
+    padding: 25px;
+}
+footer ul li a{
+   
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+
+
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 0px;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.a_pagar{
+    background-color: #cce5ff;
+    border-radius: 5px 5px 5px 5px;
+}
